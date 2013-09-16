@@ -1,0 +1,12 @@
+markdown: redcarpet
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+name: James Edward Butler
+url: http://sandfox.co.uk
+description: Computers - How do they work?
+twitter: sandfoxuk 
+github: sandfox
+gravatar_url: https://secure.gravatar.com/avatar/5c638f6b8e6c046f28378aadc9a46c24.png

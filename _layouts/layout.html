@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>
+    {{ site.name }}
+  </title>
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <section class="name">
+        <img src="{{ site.gravatar_url }}?s=142" height="40" width="40" />
+        <a href="/">Sandfox</b></a>
+      </section>
+
+      <ul class="menu">
+        <li><a href="/about"><i class="icon-info-sign"></i> About</a></li>
+        <li><a href="https://github.com/sandfox"> <i class="icon-github"></i> Github</a></li>
+        <li><a href="https://twitter.com/sandfoxuk"> <i class="icon-twitter"></i> Twitter</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  {{ content }}
+</body>
+
+</html>

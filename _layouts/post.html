@@ -1,0 +1,24 @@
+---
+layout: layout
+---
+
+<section class="container content">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+
+  {{ content }}
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <p>There are no comments.</p>
+  </section>
+
+  <div style="clear: both"></div>
+</section>
+
+</section>
