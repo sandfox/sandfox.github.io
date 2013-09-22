@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NodeJS + Uubntu 5 Mins, GO!"
+title: "NodeJS + Ubntu 5 Mins, GO!"
 ---
 
 
